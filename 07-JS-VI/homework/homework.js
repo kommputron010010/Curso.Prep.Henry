@@ -46,7 +46,7 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
   var nuevoArray = array.map(function(el){
-    return cb(function);
+    return cb(el);
   });
   return nuevoArray;
 }
